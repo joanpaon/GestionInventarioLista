@@ -1,0 +1,39 @@
+<pre>
+
+Project .....: GestionInventarioLista
+Summary .....: Console CRUD + IN/OUT Item Inventory
+Creation ....: 23/06/2024
+Author ......: José A. Pacheco Ondoño - joanpaon@gmail.com
+Remote ......: https://github.com/joanpaon/GestionInventarioLista.git
+IDE .........: NetBeans 22
+JDK .........: Oracle JDK 21
+
+To edit this project within NetBeans:
+
+ 1. Use this Scanner object from Utilesentrada library.
+ 
+    public static final Scanner SCN
+            = new Scanner(System.in, "UTF-8")
+                    .useLocale(Locale.ENGLISH).useDelimiter("\\s+");
+					
+ 2. Set the System Environment Variable as follow:
+ 
+	JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8 -Dsun.jnu.encoding=CP1252 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -Dconsole.encoding=UTF-8
+
+To run this project from the generated jar file on a Windows Terminal:
+
+ 1. Use this Scanner object from Utilesentrada library.
+ 
+    public static final Scanner SCN
+            = new Scanner(System.in, "CP850")
+                    .useLocale(Locale.ENGLISH).useDelimiter("\\s+");
+					
+ 2. Create the file run.bat on the directory project with this code inside:
+ 
+	@echo off
+	set JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8 -Dsun.jnu.encoding=CP1252 -Dsun.stdout.encoding=CP850 -Dsun.stderr.encoding=CP850 -Dconsole.encoding=CP850
+	java -jar GestionInventarioLista.jar JAPO-Omicron-0 
+ 
+ 3. Run the file run.bat
+ 
+</pre>
