@@ -13,11 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.japo.java.libraries;
+package org.japo.java.app;
 
 import java.util.List;
 import org.japo.java.entities.articulo.Articulo;
 import org.japo.java.entities.articulo.UtilesArticulo;
+import org.japo.java.libraries.UtilesEntrada;
 
 /**
  *

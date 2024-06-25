@@ -18,7 +18,6 @@ package org.japo.java.app;
 import java.util.ArrayList;
 import java.util.List;
 import org.japo.java.entities.articulo.Articulo;
-import org.japo.java.libraries.UtilesApp;
 import org.japo.java.libraries.UtilesCSV;
 
 /**
